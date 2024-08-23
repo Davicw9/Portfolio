@@ -1,0 +1,47 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 35px;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+button{
+    font-size: 28px;
+    color: #ffffff;
+    width: 180px;
+    height: 50px;
+    border: 0px;
+}
+#iniciar{
+    background-color: #17bd17;
+}
+#pausar{
+    background-color: #1764bd;
+}
+#cancelar{
+    background-color: #bd1717;
+}
+#salvar{
+    background-color: #17bd17;
+}
+#limpar{
+    background-color: #bd1717;
+}
+
+h2{
+    font-size: 25px;
+}
+#listaTempos{
+    max-height: 200px;
+    overflow-y: auto;
+}
+#listaTempos li{
+    list-style-type: none;
+}

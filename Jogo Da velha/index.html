@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main id="main">
+        <div id="jogo-da-velha">
+            <div id="quadrado1" class="quadrados" onclick="seleciona(event, 1)" onmouseout="reverte(event, 1)" onmouseover="mostrarOpcao(event, 1)"></div>
+            <div id="quadrado2" class="quadrados" onclick="seleciona(event, 2)" onmouseout="reverte(event, 2)" onmouseover="mostrarOpcao(event, 2)"></div>
+            <div id="quadrado3" class="quadrados" onclick="seleciona(event, 3)" onmouseout="reverte(event, 3)" onmouseover="mostrarOpcao(event, 3)"></div>
+            <div id="quadrado4" class="quadrados" onclick="seleciona(event, 4)" onmouseout="reverte(event, 4)" onmouseover="mostrarOpcao(event, 4)"></div>
+            <div id="quadrado5" class="quadrados" onclick="seleciona(event, 5)" onmouseout="reverte(event, 5)" onmouseover="mostrarOpcao(event, 5)"></div>
+            <div id="quadrado6" class="quadrados" onclick="seleciona(event, 6)" onmouseout="reverte(event, 6)" onmouseover="mostrarOpcao(event, 6)"></div>
+            <div id="quadrado7" class="quadrados" onclick="seleciona(event, 7)" onmouseout="reverte(event, 7)" onmouseover="mostrarOpcao(event, 7)"></div>
+            <div id="quadrado8" class="quadrados" onclick="seleciona(event, 8)" onmouseout="reverte(event, 8)" onmouseover="mostrarOpcao(event, 8)"></div>
+            <div id="quadrado9" class="quadrados" onclick="seleciona(event, 9)" onmouseout="reverte(event, 9)" onmouseover="mostrarOpcao(event, 9)"></div>
+        </div>
+    </main>
+    <div id="modal">
+        <div id="mensagem"><span id="resultado"></span></div>
+        <input type="button" value="restart" id="reiniciar" onclick="reiniciarJogo()">
+    </div>
+    <script src="JS/jogadores.js" defer></script>
+<script src="JS/index.js" defer></script>
+</body>
+</html>

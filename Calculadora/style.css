@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    min-width: 1860px;
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#principal{
+    width: 25.5%;
+    height: 68%;
+    background-color: rgb(34, 32, 32);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+#tela{
+    background-color: white;
+    width: 80%;
+    height: 12%;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-bottom: 6%;
+    font-size: 24px;
+}
+#teclado{
+    color: white;
+    width: 85%;
+    height: 84%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.numeros{
+    color: white;
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    margin: 6px;
+    background-color: rgb(38, 42, 66);
+    font-size: 30px;
+}
+#c{
+    width: 186px;
+    height: 85px;
+}
+#numero0{
+    width: 186px;
+}
+#igual{
+    width: 186px;
+}

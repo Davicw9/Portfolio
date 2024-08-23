@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.lado-esquerdo{
+    width: 30vw;
+    height: 100vh;
+    background-color: #ffb0c6;
+    display: flex;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+}
+.navegacao{
+    margin-top: 300px;
+}
+.login-signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 80px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px 0 0 20px;
+    
+}
+
+.login-signin:hover{
+    background-color: #ffffff;
+    color: rgb(172, 181, 199);
+}
+.principal{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0px;
+}
+form{
+    width: 70%;
+}
+.input{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px #c03e63 solid;
+    font-size: 20px;
+    padding: 3px;
+}
+#logo{
+    margin-bottom: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+#logo h1{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    background: linear-gradient(to right, #ee5757, #f09595);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#logar{
+    margin-top: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#esqueceu{
+    font-size: 20px;
+    color: #c03e63;
+    font-weight: bold;
+}
+#botao{
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #ff667a;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.formas-login{
+    width: 70vw;
+    height: 10%; 
+    position: absolute;
+    bottom: 0px;
+    background: linear-gradient(to bottom, #d6d6d6, #ffffff);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-size: 24px;
+    
+}
+#or{
+    font-weight: bold;
+}
+.span{
+    display: flex;
+    align-items: center;
+    color: #aaaaaa;
+    height: 50px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.span img{
+    margin-right: 8px;
+    height: 23px;
+    width: 23px;
+}
+#face{
+    height: 34px;
+    width: 34px;
+}
+

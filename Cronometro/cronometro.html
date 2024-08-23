@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="divTempo">
+            <h1 id="cronometro">00:00:00</h1>
+        </div>
+        <div class="botoes">
+            <button type="button" id="iniciar">INICIAR</button>
+            <button type="button" id="pausar">PAUSAR</button>
+            <button type="button" id="cancelar">CANCELAR</button>
+            <button type="button" id="salvar">SALVAR</button>
+        </div>
+
+        <div id="temposSalvos">
+            <h2>TEMPOS SALVOS</h2>
+            <ul id="listaTempos">
+            </ul>
+            <button type="button" id="limpar" onclick="clearSaveTime()">LIMPAR</button>
+        </div>
+    </main>
+    <script src="cronometro.js"></script>
+</body>
+</html>

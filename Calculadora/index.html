@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Paomedia-Small-N-Flat-Calculator.32.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="principal">
+
+                <input type="text" id="tela">
+
+            <div id="teclado">
+                <div class="agrupamento">
+                    <input type="button" class="numeros" id="c" value="C" onclick="apagarTudo()">
+                    <input type="button" class="numeros" id="divisao" value="/" onclick="capturarId(this)">
+                    <input type="button" class="numeros" id="mutiplicacao" value="*" onclick="capturarId(this)"></div>
+                <div class="agrupamento">
+                    <input type="button" class="numeros" id="numero7" value="7" onclick="capturarId(this)">
+                    <input type="button" class="numeros" id="numero8" value="8" onclick="capturarId(this)">
+                    <input type="button" class="numeros" id="numero9" value="9" onclick="capturarId(this)">
+                    <input type="button" class="numeros" id="diminuicao" value="-" onclick="capturarId(this)">
+                </div>
+                <div class="agrupamento">
+                    <input type="button" class="numeros" id="numero4" value="4" onclick="capturarId(this)">
+                    <input type="button" class="numeros" id="numero5" value="5" onclick="capturarId(this)">
+                    <input type="button" class="numeros" id="numero6" value="6" onclick="capturarId(this)">
+                    <input type="button" class="numeros" id="soma" value="+" onclick="capturarId(this)">
+                </div>
+                <div class="agrupamento">
+                    <input type="button" class="numeros" id="numero1" value="1" onclick="capturarId(this)">
+                    <input type="button" class="numeros" id="numero2" value="2" onclick="capturarId(this)">
+                    <input type="button" class="numeros" id="numero3" value="3" onclick="capturarId(this)">
+                    <input type="button" class="numeros" id="ponto" value="." onclick="capturarId(this)">
+                </div>
+                <div class="agrupamento">
+                    <input type="button" class="numeros" id="numero0" value="0" onclick="capturarId(this)">
+                    <input type="button" class="numeros" id="igual" value="=" onclick="resultado()">
+                </div>
+               
+
+            </div>
+        </div>
+    </main>
+    <script src="index.JS" defer></script>
+</body>
+</html>
