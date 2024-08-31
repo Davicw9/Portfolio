@@ -8,7 +8,7 @@ const mensagem2 = 'Vitória do ' + jogador2.name;
 
 var modal = document.getElementById('modal');
 var resultado = document.getElementById('resultado');
-
+var vitoria = 0;
 const mostrarOpcao = (event, numeroDiv) => {
     if(!selecionaDisparado[numeroDiv]){
         if(jogador1.jogada){
@@ -71,10 +71,12 @@ const seleciona = (event, numeroDiv) => {
                 resultado.textContent = mensagem1;
                 modal.style.display = 'flex';
                 console.log('Vitória do ', jogador1.name);
+                vitoria++;
             }else{
                 resultado.textContent = mensagem2;
                 modal.style.display = 'flex';
                 console.log('Vitória do ', jogador2.name);
+                vitoria++;
             }
             
             return true;
@@ -88,9 +90,11 @@ const seleciona = (event, numeroDiv) => {
         if(!jogador1.jogada){
             resultado.textContent = mensagem1;
             modal.style.display = 'flex';
+            vitoria++;
         }else{
             resultado.textContent = mensagem2;
             modal.style.display = 'flex';
+            vitoria++;
         }
         //return true;
     }
@@ -106,10 +110,11 @@ const seleciona = (event, numeroDiv) => {
         }
     }
 
-    if (todasPreenchidas) {
+    if (todasPreenchidas && vitoria == 0) {
         // Todas as células foram preenchidas e ninguém venceu
         resultado.textContent = 'EMPATE';
         modal.style.display = 'flex';
+        console.log(vitoria);
     }
     //return false;
 }
